@@ -6,11 +6,11 @@ fn main() {
    println!("The largest number is {}", result);
 
    let char_list = vec!['y', 'm', 'a', 'q'];
-   let result = largest(&char_list);
+   let result = largest_copy(&char_list);
    println!("The largest char is {}", result);
 
    let string_list = vec!["A", "C", "B"]; 
-   let result = largest(&string_list); 
+   let result = largest_clone(&string_list); 
    println!("The largest string is {}", result); 
 
 }
