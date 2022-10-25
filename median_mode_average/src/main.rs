@@ -39,6 +39,7 @@ fn numbers_input() {
     // Median
     let median = get_median(&mut v);
     println!("The median is: {}", median);
+    
 
     //Mode
     let (mode, most) = get_mode(&v); 
